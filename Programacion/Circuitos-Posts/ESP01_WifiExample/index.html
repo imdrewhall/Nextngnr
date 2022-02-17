@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+            <head><meta name="viewport" content="width=device-width, initial-scale=1">
+                <!-- <link rel="icon" href="data:,"> -->
+                <link rel="stylesheet" type="text/css" href="style.css">
+            <!-- // CSS to style the on/off buttons 
+            // Feel free to change the background-color and font-size attributes to fit your preferences -->
+            <script src="lightbulb.js"></script>
+               </head>
+            
+            <!-- // Web Page Headingva  -->
+    <body >
+        <h1>NEXTNGNR</h1>
+        <h2>Controlador IoT</h2>
+             <div class="container">
+                <div class="bulb" >
+                    <div class="filament1"></div>
+                    <div class="filament2"></div>
+                    <div class="base-yellow"></div>
+                </div>
+                <div class="base">
+                    <div class="l1"></div>
+                    <div class="l2"></div>
+                </div>
+            </div>
+            <div class="relative">
+            <p> Presione para encender </p>
+            <p><!-- <a href=\"/5/on\"> --><button class="button" onclick="luz();">TURN ON</button><!-- </a> --></p>
+           <!--  // Display current state, and ON/OFF buttons for GPIO 5  
+             // Display current state, and ON/OFF buttons for GPIO 5   -->
+           
+            <p> Presione para apagar </p>
+            <!-- // If the output5State is off, it displays the ON button   -->   
+
+            <!-- if (output5State=="off") { -->
+            <!-- else {  -->
+            <p><!-- <a href=\"/5/off\"> --><button class="button button2" onclick="sinluz();">TURN OFF</button><!-- </a> --></p>
+           <!--  }  -->
+            </div>
+
+    </body>
+</html>
+            
+<!--             // The HTTP response ends with another blank line
+            client.println(); -->
