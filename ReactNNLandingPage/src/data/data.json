@@ -1,0 +1,111 @@
+{
+    "Header": {
+
+        "title": "Bienvenido a Nextngnr",
+        "paragraph": "\"Solo hace falta creer en algo para que salga bien.\"",
+        "paragraph2": "¡Visita eLearning si estás interesado en lo más novedoso que ocurre en nuestra comunidad!"
+
+    },
+    "Features": [{
+        "img": "img/newportfolio/afterschoollogo.png",
+        "title": "AfterSchool Mechatronics",
+        "text": "Un espacio para jóvenes adolescentes, donde desarrollar sus competencias en mecánica, informática y electrónica, en un ambiente de Aprendizaje Basado en Proyectos."
+    },
+    {
+        "img": "img/newportfolio/iotgardenlogo.png",
+        "title": "IoT Gardening",
+        "text": "Promover el uso de la tecnología para propiciar un cuidado especial a nuestros cultivos, permitiéndonos tener en poco espacio productos de consumo y deleite sin el estrés del cuidado manual."
+        },
+    {
+        "img": "img/newportfolio/3dlogo.png",
+        "title": "3D Build & Design",
+        "text": "El Diseño y elaboración de partes o sistemas que integren componentes mecánicos para sistemas domésticos o industriales así como el desarrollo de prototipos es parte del hacer realidad los sueños y el resolver necesidades."
+    },
+    {
+        "img": "img/newportfolio/3.png",
+        "title": "Industrial & Home IoT Control and Automation",
+        "text": "Solucionamos e implementamos sus necesidades de control y automatización, integrando el concepto de \"Internet of Things\""
+    }
+],
+    "About": {
+        "paragraph": "\"Next Engineer\" es una comunidad de desarrollo que busca promover la ingeniería como forma de vida, más que profesionales de una carrera u oficio, ser personas con las competencias necesarias para integrar su espíritu y vocación a la solución de problemas de su entorno con ingenio, arte e integridad.",
+        "mision":"Ofrecer acceso a la automatización y sistemas de control con herramientas de Software y Hardware de código abierto, garantizando calidad y eficiencia.",
+        "vision":"Ser promotores del estilo de vida MAKER, siendo testimonio permanente de que \"solo hay que creer en algo para que salga bien\".",
+        "Why": [
+            "Lorem ipsum dolor",
+            "Tempor incididunt",
+            "Lorem ipsum dolor",
+            "Incididunt ut labore"
+        ],
+        "Why2": [
+            "Aliquip ex ea commodo",
+            "Lorem ipsum dolor",
+            "Exercitation ullamco",
+            "Lorem ipsum dolor"
+        ]
+    },
+    "Services": [{
+            "icon": "fa fa-graduation-cap",
+            "name": "Tutorías Personalizadas",
+            "text": "Brindamos servicios especiales en función a lo que deseas aprender. Desde lo más básico hasta lo más avanzado acerca de este maravilloso mundo de microcontroladores y cultura maker."
+        },
+        {
+            "icon": "fa fa-laptop",
+            "name": "Capacitaciones",
+            "text": "Cursos orientados al desarrollo de habilidades técnico-profesionales. Aprende, construye y programa con nosotros."
+        },
+        {
+            "icon": "fa fa-wifi",
+            "name": "Diseño de Aplicaciones IoT",
+            "text": "Creamos y desarrollamos aplicaciones de Internet de las Cosas conectando a la red dispositivos que anteriormente resultaban imposibles de imaginar conectados."
+        },
+        {
+            "icon": "fa fa-cogs",
+            "name": "Automatización",
+            "text": "Realizamos proyectos que simplifican los procesos, utilizando las herramientas adecuadas para éstos. Desde microcontroladores hasta diversos tipos de controladores."
+        },
+        {
+            "icon": "fa fa-cubes",
+            "name": "Diseño e Impresión 3D",
+            "text": "Envíanos el prototipo que desees imprimir o ¡créalo tú mismo! Pon a prueba tu mente creativa y haz realidad eso que diseñaste."
+        },
+        {
+            "icon": "fa fa-paper-plane",
+            "name": "Makerspace",
+            "text": "Te ofrecemos un espacio en donde puedas llevar a cabo los proyectos que te propongas, con el acompañamiento de nuestros tutores."
+        }
+
+
+    ],
+    "Testimonials": [{
+            "img": "img/testimonials/anyi.png",
+            "text": "Sentí que no era muy buena armando circuitos de electrónica, con ellos aprendí las bases y ahora me siento más segura de mí misma.",
+            "name": "Angie Vanegas"
+        },
+        {
+            "img": "img/testimonials/lucho.png",
+            "text": "Al comienzo no me sentía seguro de tomar el curso de Raspberry Pi, pero conforme avanzó, descubrí muchas oportunidades y lo mucho que facilita desarrollar algunas aplicaciones. El tiempo que pasé aprendiendo fue muy entretenido y agradable.",
+            "name": "Luis Tugri"
+        },
+        {
+            "img": "img/testimonials/kenji.png",
+            "text": "Brindan asesorías de muy buen nivel y poseen un ambiente optimizado para trabajar con un nivel alto de productividad.",
+            "name": "Kenji Contreras"
+        }
+    ],
+    "Team": [{
+            "img": "img/newportfolio/familia2.jpg",
+            "name": "Familia Hall-Smith",
+            "job": "Thanny, Andrew, Tony, Linda y Arundel"
+        }
+    ],
+    "Contact": {
+        "address": "#65, Calle 86 este, Parque Lefevre, Ciudad de Panamá",
+        "phone": "+507 62523680",
+        "email": "info@nextngnr.com",
+        "facebook": "https://www.facebook.com/Nextngnr-225769211707496/?ref=py_c&__xts__=68",
+        "twitter": "https://twitter.com/nextngnr?lang=es",
+        "youtube": "youtube.com",
+        "instagram": "https://www.instagram.com/nextngnr/"       
+    }
+}
