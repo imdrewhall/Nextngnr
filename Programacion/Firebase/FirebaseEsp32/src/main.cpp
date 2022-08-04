@@ -44,8 +44,6 @@ https://console.firebase.google.com/u/0/project/esp-firebase-demo-8a95b/database
 
 // Insert RTDB URLefine the RTDB URL
 #define DATABASE_URL "https://esp-firebase-demo-8a95b-default-rtdb.firebaseio.com/"
-// Insert RTDB URLefine the RTDB URL
-#define DATABASE_URL "https://esp-firebase-demo-8a95b-default-rtdb.firebaseio.com/"
 
 // Define Firebase objects
 FirebaseData stream;

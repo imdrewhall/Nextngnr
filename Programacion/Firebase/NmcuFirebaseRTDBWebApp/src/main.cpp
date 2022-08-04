@@ -43,8 +43,28 @@ int intValue;
 float floatValue;
 bool signupOK = false;
 
+unsigned long previousMillis = 0;
+unsigned long interval = 30000;
+
+void reconect() {
+  unsigned long currentMillis = millis();
+  // if WiFi is down, try reconnecting every CHECK_WIFI_TIME seconds
+  if ((WiFi.status() != WL_CONNECTED) && (currentMillis - previousMillis >=interval)) {
+    Serial.print(millis());
+    Serial.println("Reconnecting to WiFi...");
+    WiFi.disconnect();
+    WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+    Serial.println(WiFi.localIP());
+    //Alternatively, you can restart your board
+    //ESP.restart();
+    Serial.println(WiFi.RSSI());
+    previousMillis = currentMillis;
+  }
+}
+
 void setup() {
   Serial.begin(115200);
+  WiFi.mode(WIFI_STA);
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
   Serial.print("Connecting to Wi-Fi");
   while (WiFi.status() != WL_CONNECTED) {
@@ -79,6 +99,7 @@ void setup() {
 }
 
 void loop() {
+  reconect();
   if (Firebase.ready() && signupOK && (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0)) {
     sendDataPrevMillis = millis();
     if (Firebase.RTDB.getFloat(&fbdo, "/test/float")) {
