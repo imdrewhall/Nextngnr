@@ -57,7 +57,7 @@ String humPath;
 String presPath;
 
 float F;
-float temperature;
+int temperature;
 float humidity;
 float pressure;
 
@@ -151,10 +151,10 @@ void loop(){
 
     // Get latest sensor readings
     F = analogRead(33);
-    temperature = F;
-    humidity = F*F;
+    temperature = map(F,0,4095,-10,43);
+    humidity = (F/4095)*100;
     pressure = sqrt(F);
-    
+
     Serial.println("\n\n\n");
     Serial.println(temperature);
     Serial.println(humidity);
