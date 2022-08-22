@@ -39,7 +39,7 @@ https://console.firebase.google.com/u/0/project/esp-firebase-demo-8a95b/database
 #define API_KEY "AIzaSyCw_6YqOwEPSGp97TYMPV5QakCl-4CF0ac"
 
 // Insert Authorized Email and Corresponding Password
-#define USER_EMAIL "andrew.hall0703@gmail.com"
+#define USER_EMAIL "nextngnr@gmail.com"
 #define USER_PASSWORD "000000"
 
 // Insert RTDB URLefine the RTDB URL
