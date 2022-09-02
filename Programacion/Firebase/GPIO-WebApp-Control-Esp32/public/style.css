@@ -9,7 +9,7 @@ h1 {
 }
 .topnav {
     overflow: hidden;
-    background-color: #049faa;
+    background-color: #ffd344;
     color: white;
     font-size: 1rem;
     padding: 10px;
@@ -46,13 +46,13 @@ body {
 
 .card-title {
     font-size: 1.2rem;
-    color: #034078
+    color: #f7c934
 }
 .state {
-    color:#1282A2;
+    color: #fad456;
 }
 button {
-    background-color: #049faa;
+    background-color: #ffd000;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -61,10 +61,10 @@ button {
     border-radius: 4px;
 }
 .button-on {
-    background-color:#034078;
+    background-color:#ffc60b;
 }
 .button-on:hover {
-    background-color: #1282A2;
+    background-color: #fad456;
 }
 .button-off {
     background-color:#858585;
