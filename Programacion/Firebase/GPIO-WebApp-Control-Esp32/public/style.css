@@ -30,8 +30,22 @@ h1 {
 
 body {
     margin: 0;
+    /* box-sizing: border-box; */
 }
 
+input {
+    margin: auto;
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffc60b;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
 .card-grid {
     max-width: 800px;
     margin: 0 auto;

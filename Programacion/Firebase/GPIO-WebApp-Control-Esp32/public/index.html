@@ -16,13 +16,13 @@
     <script>
       // REPLACE WITH YOUR web app's Firebase configuration
       const firebaseConfig = {
-        apiKey: "AIzaSyCw_6YqOwEPSGp97TYMPV5QakCl-4CF0ac",
-        authDomain: "esp-firebase-demo-8a95b.firebaseapp.com",
-        databaseURL: "https://esp-firebase-demo-8a95b-default-rtdb.firebaseio.com",
-        projectId: "esp-firebase-demo-8a95b",
-        storageBucket: "esp-firebase-demo-8a95b.appspot.com",
-        messagingSenderId: "475019526644",
-        appId: "1:475019526644:web:07619dab905f07c5d7f9a1"
+        apiKey: "AIzaSyB4gHe7UY5TZptNJcd8gfr9oEOq626f-zA",
+        authDomain: "gpio-webapp-control.firebaseapp.com",
+        databaseURL: "https://gpio-webapp-control-default-rtdb.firebaseio.com",
+        projectId: "gpio-webapp-control",
+        storageBucket: "gpio-webapp-control.appspot.com",
+        messagingSenderId: "770433329619",
+        appId: "1:770433329619:web:a07046fb25c9b3892ee726"
       };
 
       // Initialize firebase
@@ -66,9 +66,27 @@
     </div>
   </form>
 
+  <!-- Example single danger button -->
+  <form action="#" id="lala">
+    <label class="card-title" for="lang">Language</label>
+    <select name="languages" id="lang">
+      <option value="javascript">JavaScript</option>
+      <option value="php">PHP</option>
+      <option value="java">Java</option>
+      <option value="golang">Golang</option>
+      <option value="python">Python</option>
+      <option value="c#">C#</option>
+      <option value="C++">C++</option>
+      <option value="erlang">Erlang</option>
+    </select>
+    <button class="button-on" type="submit"> Submit </button>
+    <p class="state">Escogiste:<span id="state2"></span></p>
+    <!-- <input type="time" value="Submit" /> -->
+</form> 
   <!--CONTENT (SENSOR READINGS)-->
   <div class="content-sign-in" id="content-sign-in" style="display: none;">
     <div class="card-grid">
+
       <!--CARD FOR GPIO 12-->
       <div class="card">
         <p class="card-title"><i class="fas fa-lightbulb"></i> GPIO 12</p>
@@ -98,6 +116,37 @@
         </p>
         <p class="state">State:<span id="state3"></span></p>
       </div>
+
+      <!--CARD FOR GPIO 25-->
+      <div class="card">
+        <p class="card-title"><i class="fas fa-lightbulb"></i> GPIO 25</p>
+        <p>
+          <button class="button-on" id="btn4On">ON</button>
+          <button class="button-off" id="btn4Off">OFF</button>
+        </p>
+        <p class="state">State:<span id="state4"></span></p>
+      </div>
+
+      <!--CARD FOR GPIO 32-->
+      <div class="card">
+        <p class="card-title"><i class="fas fa-lightbulb"></i> GPIO 32</p>
+        <p>
+          <button class="button-on" id="btn5On">ON</button>
+          <button class="button-off" id="btn5Off">OFF</button>
+        </p>
+        <p class="state">State:<span id="state5"></span></p>
+      </div>
+      
+      <!--CARD FOR GPIO 34-->
+      <div class="card">
+        <p class="card-title"><i class="fas fa-lightbulb"></i> GPIO 34</p>
+        <p>
+          <button class="button-on" id="btn6On">ON</button>
+          <button class="button-off" id="btn6Off">OFF</button>
+        </p>
+        <p class="state">State:<span id="state6"></span></p>
+      </div>
+
     </div>
   </div>
     <script src="scripts/auth.js"></script>

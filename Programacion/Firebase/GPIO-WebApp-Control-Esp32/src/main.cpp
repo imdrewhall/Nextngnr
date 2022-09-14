@@ -28,22 +28,28 @@ https://console.firebase.google.com/u/0/project/esp-firebase-demo-8a95b/database
 // Provide the RTDB payload printing info and other helper functions.
 #include "addons/RTDBHelper.h"
 
-// Insert your network credentials
+/* // Insert your network credentials
 #define WIFI_SSID "H1LLSM3TH"
-#define WIFI_PASSWORD "11h1llw28"
+#define WIFI_PASSWORD "11h1llw28" */
+
+/* // Insert your network credentials
+#define WIFI_SSID "Guayacán"
+#define WIFI_PASSWORD "Alexan19" */
+
+// Insert your network credentials
+#define WIFI_SSID "MADREVIEJA-MESH"
+#define WIFI_PASSWORD "$Enel-P@nama2021#"
+
 
 // Insert Firebase project API Key
-#define API_KEY "AIzaSyCw_6YqOwEPSGp97TYMPV5QakCl-4CF0ac"
-
-// Insert Firebase project API Key
-#define API_KEY "AIzaSyCw_6YqOwEPSGp97TYMPV5QakCl-4CF0ac"
+#define API_KEY "AIzaSyB4gHe7UY5TZptNJcd8gfr9oEOq626f-zA"
 
 // Insert Authorized Email and Corresponding Password
 #define USER_EMAIL "nextngnr@gmail.com"
 #define USER_PASSWORD "000000"
 
 // Insert RTDB URLefine the RTDB URL
-#define DATABASE_URL "https://esp-firebase-demo-8a95b-default-rtdb.firebaseio.com/"
+#define DATABASE_URL "https://gpio-webapp-control.web.app/"
 
 // Define Firebase objects
 FirebaseData stream;
@@ -57,6 +63,9 @@ String listenerPath = "board1/outputs/digital/";
 const int output1 = 12;
 const int output2 = 13;
 const int output3 = 14;
+const int output4 = 25;
+const int output5 = 32;
+const int output6 = 34;
 
 // Initialize WiFi
 void initWiFi() {
@@ -142,6 +151,9 @@ void setup()
   pinMode(output1, OUTPUT);
   pinMode(output2, OUTPUT);
   pinMode(output3, OUTPUT);
+  pinMode(output4, OUTPUT);
+  pinMode(output5, OUTPUT);
+  pinMode(output6, OUTPUT);
   
   // Assign the api key (required)
   config.api_key = API_KEY;

@@ -1,6 +1,6 @@
 {
   "rules": {
-    ".read": "auth.uid === 'cUQILQIhqQcm4apcgY6qM6tIwz43'",
-    ".write": "auth.uid === 'cUQILQIhqQcm4apcgY6qM6tIwz43'"
+    ".read": "auth.uid === '1z4tUvWEO9hU0WKpeKh8VS3h2a83'||auth.uid === 'NQ32WLfJLrbIm80bZ33Px5CO7Ph1'",
+    ".write": "auth.uid === '1z4tUvWEO9hU0WKpeKh8VS3h2a83' ||auth.uid === 'NQ32WLfJLrbIm80bZ33Px5CO7Ph1'"
   }
 }
